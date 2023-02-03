@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="basic.css">
+    
+    <title>Color Selecting Game</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container1">
+        <div class="a1">
+            <label><b>Red</b></label>
+            <input class="a11" id="timeout1" type="number" placeholder="" name="" required>
+
+            <label><b>Green</b></label>
+            <input class="a11" id="timeout2" type="number" placeholder="" name="" required>
+
+            <label><b>Blue</b></label>
+            <input class="a11" id="timeout3" type="number" placeholder="" name="" required>
+        </div>
+
+        <div class="a2">
+            <label><b>Number of Circle</b></label>
+            <input type="number" id="num">
+            <div class="a3">
+                <button id="abcd" onclick="func()">Submit</button>
+            </div>
+            <hr>
+            <div class="container">
+                <div id="input1" class="square"></div>
+            </div>
+            <div class="container">
+                <div id="input2" class="square"></div>
+            </div>
+            <div class="container">
+                <div id="input3" class="square"></div>
+            </div>
+        </div>
+
+        <div class="a3">
+            <button id="start" onclick="funct()">Start</button>
+            <a id="reset" href="index.html"><button>Reset</button></a>
+        </div>
+    
+    </div>
+
+    <script src="basic.js"></script>
+</body>
+</html>
